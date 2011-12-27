@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ArnoldMovies</key>
+	<dict>
+		<key>Predetor</key>
+		<string>arnold_predetor.jpg</string>
+		<key>Terminator</key>
+		<string>arnold_terminator.jpg</string>
+		<key>TotalRecal</key>
+		<string>arnold_totalrecal.jpg</string>
+	</dict>
+	<key>Beers</key>
+	<dict>
+		<key>St. Ambroise</key>
+		<string>beer_StAmbroise.jpg</string>
+		<key>LG Brewing</key>
+		<string>beer_lgb.jpg</string>
+		<key>Mikkeller</key>
+		<string>beer_mikkeller.jpg</string>
+	</dict>
+	<key>Tanks</key>
+	<dict>
+		<key>Panzer</key>
+		<string>tank_panzer.jpg</string>
+		<key>M1 Abrams</key>
+		<string>tank_m1Abrams.jpg</string>
+		<key>Sherman</key>
+		<string>tank_sherman.jpg</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9480FBD1144A386100BEC017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480FBD0144A386100BEC017 /* UIKit.framework */; };
+		9480FBD3144A386100BEC017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480FBD2144A386100BEC017 /* Foundation.framework */; };
+		9480FBD5144A386100BEC017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9480FBD4144A386100BEC017 /* CoreGraphics.framework */; };
+		9480FBDB144A386100BEC017 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9480FBD9144A386100BEC017 /* InfoPlist.strings */; };
+		9480FBDE144A386100BEC017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FBDD144A386100BEC017 /* main.m */; };
+		9480FBE1144A386100BEC017 /* PhotoPickerIIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FBE0144A386100BEC017 /* PhotoPickerIIAppDelegate.m */; };
+		9480FBE4144A386100BEC017 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9480FBE2144A386100BEC017 /* MainWindow.xib */; };
+		9480FBF2144A3B1300BEC017 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FBF0144A3B1300BEC017 /* CategoriesViewController.m */; };
+		9480FBF3144A3B1300BEC017 /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9480FBF1144A3B1300BEC017 /* CategoriesViewController.xib */; };
+		9480FBFD144A51C100BEC017 /* ImageSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FBFB144A51C100BEC017 /* ImageSelectorViewController.m */; };
+		9480FBFE144A51C100BEC017 /* ImageSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9480FBFC144A51C100BEC017 /* ImageSelectorViewController.xib */; };
+		9480FC0C144A540600BEC017 /* arnold_kindergarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FBFF144A540500BEC017 /* arnold_kindergarden.jpg */; };
+		9480FC0D144A540600BEC017 /* arnold_predetor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC00144A540500BEC017 /* arnold_predetor.jpg */; };
+		9480FC0E144A540600BEC017 /* arnold_terminator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC01144A540500BEC017 /* arnold_terminator.jpg */; };
+		9480FC0F144A540600BEC017 /* arnold_totalrecal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC02144A540500BEC017 /* arnold_totalrecal.jpg */; };
+		9480FC10144A540600BEC017 /* beer_lgb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC03144A540500BEC017 /* beer_lgb.jpg */; };
+		9480FC11144A540600BEC017 /* beer_mikkeller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC04144A540500BEC017 /* beer_mikkeller.jpg */; };
+		9480FC12144A540600BEC017 /* beer_StAmbroise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC05144A540500BEC017 /* beer_StAmbroise.jpg */; };
+		9480FC13144A540600BEC017 /* PhotoPhactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FC07144A540500BEC017 /* PhotoPhactory.m */; };
+		9480FC14144A540600BEC017 /* photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC08144A540500BEC017 /* photos.plist */; };
+		9480FC15144A540600BEC017 /* tank_m1Abrams.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC09144A540500BEC017 /* tank_m1Abrams.jpg */; };
+		9480FC16144A540600BEC017 /* tank_panzer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC0A144A540500BEC017 /* tank_panzer.jpg */; };
+		9480FC17144A540600BEC017 /* tank_sherman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC0B144A540500BEC017 /* tank_sherman.jpg */; };
+		9480FC1B144A588600BEC017 /* ImageDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480FC19144A588600BEC017 /* ImageDisplayViewController.m */; };
+		9480FC1C144A588600BEC017 /* ImageDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC1A144A588600BEC017 /* ImageDisplayViewController.xib */; };
+		9480FC20144A627D00BEC017 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9480FC1F144A627D00BEC017 /* star.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9480FBCC144A386100BEC017 /* PhotoPickerII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPickerII.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9480FBD0144A386100BEC017 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9480FBD2144A386100BEC017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9480FBD4144A386100BEC017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9480FBD8144A386100BEC017 /* PhotoPickerII-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoPickerII-Info.plist"; sourceTree = "<group>"; };
+		9480FBDA144A386100BEC017 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9480FBDC144A386100BEC017 /* PhotoPickerII-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoPickerII-Prefix.pch"; sourceTree = "<group>"; };
+		9480FBDD144A386100BEC017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9480FBDF144A386100BEC017 /* PhotoPickerIIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPickerIIAppDelegate.h; sourceTree = "<group>"; };
+		9480FBE0144A386100BEC017 /* PhotoPickerIIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerIIAppDelegate.m; sourceTree = "<group>"; };
+		9480FBE3144A386100BEC017 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9480FBEF144A3B1300BEC017 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoriesViewController.h; path = PhotoPickerII.xcodeproj/CategoriesViewController.h; sourceTree = SOURCE_ROOT; };
+		9480FBF0144A3B1300BEC017 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoriesViewController.m; path = PhotoPickerII.xcodeproj/CategoriesViewController.m; sourceTree = SOURCE_ROOT; };
+		9480FBF1144A3B1300BEC017 /* CategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoriesViewController.xib; path = PhotoPickerII.xcodeproj/CategoriesViewController.xib; sourceTree = SOURCE_ROOT; };
+		9480FBFA144A51C100BEC017 /* ImageSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSelectorViewController.h; sourceTree = "<group>"; };
+		9480FBFB144A51C100BEC017 /* ImageSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSelectorViewController.m; sourceTree = "<group>"; };
+		9480FBFC144A51C100BEC017 /* ImageSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageSelectorViewController.xib; sourceTree = "<group>"; };
+		9480FBFF144A540500BEC017 /* arnold_kindergarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arnold_kindergarden.jpg; sourceTree = "<group>"; };
+		9480FC00144A540500BEC017 /* arnold_predetor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arnold_predetor.jpg; sourceTree = "<group>"; };
+		9480FC01144A540500BEC017 /* arnold_terminator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arnold_terminator.jpg; sourceTree = "<group>"; };
+		9480FC02144A540500BEC017 /* arnold_totalrecal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arnold_totalrecal.jpg; sourceTree = "<group>"; };
+		9480FC03144A540500BEC017 /* beer_lgb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_lgb.jpg; sourceTree = "<group>"; };
+		9480FC04144A540500BEC017 /* beer_mikkeller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_mikkeller.jpg; sourceTree = "<group>"; };
+		9480FC05144A540500BEC017 /* beer_StAmbroise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beer_StAmbroise.jpg; sourceTree = "<group>"; };
+		9480FC06144A540500BEC017 /* PhotoPhactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPhactory.h; sourceTree = "<group>"; };
+		9480FC07144A540500BEC017 /* PhotoPhactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPhactory.m; sourceTree = "<group>"; };
+		9480FC08144A540500BEC017 /* photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = photos.plist; sourceTree = "<group>"; };
+		9480FC09144A540500BEC017 /* tank_m1Abrams.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tank_m1Abrams.jpg; sourceTree = "<group>"; };
+		9480FC0A144A540500BEC017 /* tank_panzer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tank_panzer.jpg; sourceTree = "<group>"; };
+		9480FC0B144A540500BEC017 /* tank_sherman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tank_sherman.jpg; sourceTree = "<group>"; };
+		9480FC18144A588600BEC017 /* ImageDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayViewController.h; sourceTree = "<group>"; };
+		9480FC19144A588600BEC017 /* ImageDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayViewController.m; sourceTree = "<group>"; };
+		9480FC1A144A588600BEC017 /* ImageDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDisplayViewController.xib; sourceTree = "<group>"; };
+		9480FC1F144A627D00BEC017 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9480FBC9144A386100BEC017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9480FBD1144A386100BEC017 /* UIKit.framework in Frameworks */,
+				9480FBD3144A386100BEC017 /* Foundation.framework in Frameworks */,
+				9480FBD5144A386100BEC017 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9480FBC1144A386000BEC017 = {
+			isa = PBXGroup;
+			children = (
+				9480FBD6144A386100BEC017 /* PhotoPickerII */,
+				9480FBCF144A386100BEC017 /* Frameworks */,
+				9480FBCD144A386100BEC017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9480FBCD144A386100BEC017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9480FBCC144A386100BEC017 /* PhotoPickerII.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9480FBCF144A386100BEC017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9480FBD0144A386100BEC017 /* UIKit.framework */,
+				9480FBD2144A386100BEC017 /* Foundation.framework */,
+				9480FBD4144A386100BEC017 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9480FBD6144A386100BEC017 /* PhotoPickerII */ = {
+			isa = PBXGroup;
+			children = (
+				9480FC06144A540500BEC017 /* PhotoPhactory.h */,
+				9480FC07144A540500BEC017 /* PhotoPhactory.m */,
+				9480FC08144A540500BEC017 /* photos.plist */,
+				9480FBEF144A3B1300BEC017 /* CategoriesViewController.h */,
+				9480FBF0144A3B1300BEC017 /* CategoriesViewController.m */,
+				9480FBF1144A3B1300BEC017 /* CategoriesViewController.xib */,
+				9480FBFA144A51C100BEC017 /* ImageSelectorViewController.h */,
+				9480FBFB144A51C100BEC017 /* ImageSelectorViewController.m */,
+				9480FBFC144A51C100BEC017 /* ImageSelectorViewController.xib */,
+				9480FC18144A588600BEC017 /* ImageDisplayViewController.h */,
+				9480FC19144A588600BEC017 /* ImageDisplayViewController.m */,
+				9480FC1A144A588600BEC017 /* ImageDisplayViewController.xib */,
+				9480FBDF144A386100BEC017 /* PhotoPickerIIAppDelegate.h */,
+				9480FBE0144A386100BEC017 /* PhotoPickerIIAppDelegate.m */,
+				9480FBE2144A386100BEC017 /* MainWindow.xib */,
+				9480FBD7144A386100BEC017 /* Supporting Files */,
+			);
+			path = PhotoPickerII;
+			sourceTree = "<group>";
+		};
+		9480FBD7144A386100BEC017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9480FC1F144A627D00BEC017 /* star.jpg */,
+				9480FBFF144A540500BEC017 /* arnold_kindergarden.jpg */,
+				9480FC00144A540500BEC017 /* arnold_predetor.jpg */,
+				9480FC01144A540500BEC017 /* arnold_terminator.jpg */,
+				9480FC02144A540500BEC017 /* arnold_totalrecal.jpg */,
+				9480FC03144A540500BEC017 /* beer_lgb.jpg */,
+				9480FC04144A540500BEC017 /* beer_mikkeller.jpg */,
+				9480FC05144A540500BEC017 /* beer_StAmbroise.jpg */,
+				9480FC09144A540500BEC017 /* tank_m1Abrams.jpg */,
+				9480FC0A144A540500BEC017 /* tank_panzer.jpg */,
+				9480FC0B144A540500BEC017 /* tank_sherman.jpg */,
+				9480FBD8144A386100BEC017 /* PhotoPickerII-Info.plist */,
+				9480FBD9144A386100BEC017 /* InfoPlist.strings */,
+				9480FBDC144A386100BEC017 /* PhotoPickerII-Prefix.pch */,
+				9480FBDD144A386100BEC017 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9480FBCB144A386100BEC017 /* PhotoPickerII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9480FBE7144A386100BEC017 /* Build configuration list for PBXNativeTarget "PhotoPickerII" */;
+			buildPhases = (
+				9480FBC8144A386100BEC017 /* Sources */,
+				9480FBC9144A386100BEC017 /* Frameworks */,
+				9480FBCA144A386100BEC017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPickerII;
+			productName = PhotoPickerII;
+			productReference = 9480FBCC144A386100BEC017 /* PhotoPickerII.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9480FBC3144A386000BEC017 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9480FBC6144A386000BEC017 /* Build configuration list for PBXProject "PhotoPickerII" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9480FBC1144A386000BEC017;
+			productRefGroup = 9480FBCD144A386100BEC017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9480FBCB144A386100BEC017 /* PhotoPickerII */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9480FBCA144A386100BEC017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9480FBDB144A386100BEC017 /* InfoPlist.strings in Resources */,
+				9480FBE4144A386100BEC017 /* MainWindow.xib in Resources */,
+				9480FBF3144A3B1300BEC017 /* CategoriesViewController.xib in Resources */,
+				9480FBFE144A51C100BEC017 /* ImageSelectorViewController.xib in Resources */,
+				9480FC0C144A540600BEC017 /* arnold_kindergarden.jpg in Resources */,
+				9480FC0D144A540600BEC017 /* arnold_predetor.jpg in Resources */,
+				9480FC0E144A540600BEC017 /* arnold_terminator.jpg in Resources */,
+				9480FC0F144A540600BEC017 /* arnold_totalrecal.jpg in Resources */,
+				9480FC10144A540600BEC017 /* beer_lgb.jpg in Resources */,
+				9480FC11144A540600BEC017 /* beer_mikkeller.jpg in Resources */,
+				9480FC12144A540600BEC017 /* beer_StAmbroise.jpg in Resources */,
+				9480FC14144A540600BEC017 /* photos.plist in Resources */,
+				9480FC15144A540600BEC017 /* tank_m1Abrams.jpg in Resources */,
+				9480FC16144A540600BEC017 /* tank_panzer.jpg in Resources */,
+				9480FC17144A540600BEC017 /* tank_sherman.jpg in Resources */,
+				9480FC1C144A588600BEC017 /* ImageDisplayViewController.xib in Resources */,
+				9480FC20144A627D00BEC017 /* star.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9480FBC8144A386100BEC017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9480FBDE144A386100BEC017 /* main.m in Sources */,
+				9480FBE1144A386100BEC017 /* PhotoPickerIIAppDelegate.m in Sources */,
+				9480FBF2144A3B1300BEC017 /* CategoriesViewController.m in Sources */,
+				9480FBFD144A51C100BEC017 /* ImageSelectorViewController.m in Sources */,
+				9480FC13144A540600BEC017 /* PhotoPhactory.m in Sources */,
+				9480FC1B144A588600BEC017 /* ImageDisplayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9480FBD9144A386100BEC017 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9480FBDA144A386100BEC017 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9480FBE2144A386100BEC017 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9480FBE3144A386100BEC017 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9480FBE5144A386100BEC017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9480FBE6144A386100BEC017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9480FBE8144A386100BEC017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPickerII/PhotoPickerII-Prefix.pch";
+				INFOPLIST_FILE = "PhotoPickerII/PhotoPickerII-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9480FBE9144A386100BEC017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPickerII/PhotoPickerII-Prefix.pch";
+				INFOPLIST_FILE = "PhotoPickerII/PhotoPickerII-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9480FBC6144A386000BEC017 /* Build configuration list for PBXProject "PhotoPickerII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9480FBE5144A386100BEC017 /* Debug */,
+				9480FBE6144A386100BEC017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9480FBE7144A386100BEC017 /* Build configuration list for PBXNativeTarget "PhotoPickerII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9480FBE8144A386100BEC017 /* Debug */,
+				9480FBE9144A386100BEC017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9480FBC3144A386000BEC017 /* Project object */;
+}

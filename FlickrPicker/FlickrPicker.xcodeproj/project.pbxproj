@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B432360D145DEF6F00E6A3F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B432360C145DEF6F00E6A3F8 /* UIKit.framework */; };
+		B432360F145DEF6F00E6A3F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B432360E145DEF6F00E6A3F8 /* Foundation.framework */; };
+		B4323611145DEF6F00E6A3F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4323610145DEF6F00E6A3F8 /* CoreGraphics.framework */; };
+		B4323617145DEF6F00E6A3F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4323615145DEF6F00E6A3F8 /* InfoPlist.strings */; };
+		B432361A145DEF6F00E6A3F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323619145DEF6F00E6A3F8 /* main.m */; };
+		B432361D145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B432361C145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.m */; };
+		B4323620145DEF6F00E6A3F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B432361E145DEF6F00E6A3F8 /* MainWindow.xib */; };
+		B4323623145DEF6F00E6A3F8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323622145DEF6F00E6A3F8 /* RootViewController.m */; };
+		B4323626145DEF6F00E6A3F8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4323624145DEF6F00E6A3F8 /* RootViewController.xib */; };
+		B4323647145DEFA600E6A3F8 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = B432362F145DEFA600E6A3F8 /* NSObject+SBJson.m */; };
+		B4323648145DEFA600E6A3F8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323632145DEFA600E6A3F8 /* SBJsonParser.m */; };
+		B4323649145DEFA600E6A3F8 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323634145DEFA600E6A3F8 /* SBJsonStreamParser.m */; };
+		B432364A145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323636145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.m */; };
+		B432364B145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323638145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.m */; };
+		B432364C145DEFA600E6A3F8 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = B432363A145DEFA600E6A3F8 /* SBJsonStreamParserState.m */; };
+		B432364D145DEFA600E6A3F8 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B432363C145DEFA600E6A3F8 /* SBJsonStreamWriter.m */; };
+		B432364E145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B432363E145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.m */; };
+		B432364F145DEFA600E6A3F8 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323640145DEFA600E6A3F8 /* SBJsonStreamWriterState.m */; };
+		B4323650145DEFA600E6A3F8 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323642145DEFA600E6A3F8 /* SBJsonTokeniser.m */; };
+		B4323651145DEFA600E6A3F8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323644145DEFA600E6A3F8 /* SBJsonUTF8Stream.m */; };
+		B4323652145DEFA600E6A3F8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323646145DEFA600E6A3F8 /* SBJsonWriter.m */; };
+		B4323655145DF19B00E6A3F8 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323654145DF19B00E6A3F8 /* JsonParser.m */; };
+		B4323657145DFE1200E6A3F8 /* searchTerms.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4323656145DFE1200E6A3F8 /* searchTerms.plist */; };
+		B432365B145E069100E6A3F8 /* FlickrSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323659145E069100E6A3F8 /* FlickrSearchResultsViewController.m */; };
+		B432365C145E069100E6A3F8 /* FlickrSearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B432365A145E069100E6A3F8 /* FlickrSearchResultsViewController.xib */; };
+		B432365F145E156100E6A3F8 /* SearchTerms.m in Sources */ = {isa = PBXBuildFile; fileRef = B432365E145E156100E6A3F8 /* SearchTerms.m */; };
+		B4323663145E411F00E6A3F8 /* ImageDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323661145E411E00E6A3F8 /* ImageDisplayViewController.m */; };
+		B4323664145E411F00E6A3F8 /* ImageDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4323662145E411E00E6A3F8 /* ImageDisplayViewController.xib */; };
+		B4323667145E50F800E6A3F8 /* ImageDisplayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4323666145E50F800E6A3F8 /* ImageDisplayInfo.m */; };
+		B432366A145E6B1000E6A3F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4323669145E6B1000E6A3F8 /* MessageUI.framework */; };
+		B4323675145E6F9A00E6A3F8 /* flckr.png in Resources */ = {isa = PBXBuildFile; fileRef = B4323674145E6F9A00E6A3F8 /* flckr.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4323608145DEF6F00E6A3F8 /* FlickrPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B432360C145DEF6F00E6A3F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B432360E145DEF6F00E6A3F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4323610145DEF6F00E6A3F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4323614145DEF6F00E6A3F8 /* FlickrPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrPicker-Info.plist"; sourceTree = "<group>"; };
+		B4323616145DEF6F00E6A3F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4323618145DEF6F00E6A3F8 /* FlickrPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlickrPicker-Prefix.pch"; sourceTree = "<group>"; };
+		B4323619145DEF6F00E6A3F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B432361B145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrPickerAppDelegate.h; sourceTree = "<group>"; };
+		B432361C145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPickerAppDelegate.m; sourceTree = "<group>"; };
+		B432361F145DEF6F00E6A3F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B4323621145DEF6F00E6A3F8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B4323622145DEF6F00E6A3F8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B4323625145DEF6F00E6A3F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		B432362E145DEFA600E6A3F8 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		B432362F145DEFA600E6A3F8 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		B4323630145DEFA600E6A3F8 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		B4323631145DEFA600E6A3F8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B4323632145DEFA600E6A3F8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B4323633145DEFA600E6A3F8 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		B4323634145DEFA600E6A3F8 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		B4323635145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		B4323636145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		B4323637145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		B4323638145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		B4323639145DEFA600E6A3F8 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		B432363A145DEFA600E6A3F8 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		B432363B145DEFA600E6A3F8 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		B432363C145DEFA600E6A3F8 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		B432363D145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		B432363E145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		B432363F145DEFA600E6A3F8 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		B4323640145DEFA600E6A3F8 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		B4323641145DEFA600E6A3F8 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		B4323642145DEFA600E6A3F8 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		B4323643145DEFA600E6A3F8 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		B4323644145DEFA600E6A3F8 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		B4323645145DEFA600E6A3F8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B4323646145DEFA600E6A3F8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		B4323653145DF19B00E6A3F8 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		B4323654145DF19B00E6A3F8 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		B4323656145DFE1200E6A3F8 /* searchTerms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = searchTerms.plist; sourceTree = "<group>"; };
+		B4323658145E069100E6A3F8 /* FlickrSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrSearchResultsViewController.h; sourceTree = "<group>"; };
+		B4323659145E069100E6A3F8 /* FlickrSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrSearchResultsViewController.m; sourceTree = "<group>"; };
+		B432365A145E069100E6A3F8 /* FlickrSearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrSearchResultsViewController.xib; sourceTree = "<group>"; };
+		B432365D145E156000E6A3F8 /* SearchTerms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTerms.h; sourceTree = "<group>"; };
+		B432365E145E156100E6A3F8 /* SearchTerms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTerms.m; sourceTree = "<group>"; };
+		B4323660145E411D00E6A3F8 /* ImageDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayViewController.h; sourceTree = "<group>"; };
+		B4323661145E411E00E6A3F8 /* ImageDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayViewController.m; sourceTree = "<group>"; };
+		B4323662145E411E00E6A3F8 /* ImageDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDisplayViewController.xib; sourceTree = "<group>"; };
+		B4323665145E50F800E6A3F8 /* ImageDisplayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayInfo.h; sourceTree = "<group>"; };
+		B4323666145E50F800E6A3F8 /* ImageDisplayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayInfo.m; sourceTree = "<group>"; };
+		B4323669145E6B1000E6A3F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B4323674145E6F9A00E6A3F8 /* flckr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flckr.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4323605145DEF6F00E6A3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B432366A145E6B1000E6A3F8 /* MessageUI.framework in Frameworks */,
+				B432360D145DEF6F00E6A3F8 /* UIKit.framework in Frameworks */,
+				B432360F145DEF6F00E6A3F8 /* Foundation.framework in Frameworks */,
+				B4323611145DEF6F00E6A3F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43235FD145DEF6F00E6A3F8 = {
+			isa = PBXGroup;
+			children = (
+				B4323612145DEF6F00E6A3F8 /* FlickrPicker */,
+				B432360B145DEF6F00E6A3F8 /* Frameworks */,
+				B4323609145DEF6F00E6A3F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4323609145DEF6F00E6A3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4323608145DEF6F00E6A3F8 /* FlickrPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B432360B145DEF6F00E6A3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4323669145E6B1000E6A3F8 /* MessageUI.framework */,
+				B432360C145DEF6F00E6A3F8 /* UIKit.framework */,
+				B432360E145DEF6F00E6A3F8 /* Foundation.framework */,
+				B4323610145DEF6F00E6A3F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4323612145DEF6F00E6A3F8 /* FlickrPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B4323674145E6F9A00E6A3F8 /* flckr.png */,
+				B432362C145DEFA600E6A3F8 /* json */,
+				B432361B145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.h */,
+				B432361C145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.m */,
+				B432361E145DEF6F00E6A3F8 /* MainWindow.xib */,
+				B4323621145DEF6F00E6A3F8 /* RootViewController.h */,
+				B4323622145DEF6F00E6A3F8 /* RootViewController.m */,
+				B4323624145DEF6F00E6A3F8 /* RootViewController.xib */,
+				B4323658145E069100E6A3F8 /* FlickrSearchResultsViewController.h */,
+				B4323659145E069100E6A3F8 /* FlickrSearchResultsViewController.m */,
+				B432365A145E069100E6A3F8 /* FlickrSearchResultsViewController.xib */,
+				B4323660145E411D00E6A3F8 /* ImageDisplayViewController.h */,
+				B4323661145E411E00E6A3F8 /* ImageDisplayViewController.m */,
+				B4323662145E411E00E6A3F8 /* ImageDisplayViewController.xib */,
+				B432365D145E156000E6A3F8 /* SearchTerms.h */,
+				B432365E145E156100E6A3F8 /* SearchTerms.m */,
+				B4323656145DFE1200E6A3F8 /* searchTerms.plist */,
+				B4323653145DF19B00E6A3F8 /* JsonParser.h */,
+				B4323654145DF19B00E6A3F8 /* JsonParser.m */,
+				B4323665145E50F800E6A3F8 /* ImageDisplayInfo.h */,
+				B4323666145E50F800E6A3F8 /* ImageDisplayInfo.m */,
+				B4323613145DEF6F00E6A3F8 /* Supporting Files */,
+			);
+			path = FlickrPicker;
+			sourceTree = "<group>";
+		};
+		B4323613145DEF6F00E6A3F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4323614145DEF6F00E6A3F8 /* FlickrPicker-Info.plist */,
+				B4323615145DEF6F00E6A3F8 /* InfoPlist.strings */,
+				B4323618145DEF6F00E6A3F8 /* FlickrPicker-Prefix.pch */,
+				B4323619145DEF6F00E6A3F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B432362C145DEFA600E6A3F8 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				B432362E145DEFA600E6A3F8 /* NSObject+SBJson.h */,
+				B432362F145DEFA600E6A3F8 /* NSObject+SBJson.m */,
+				B4323630145DEFA600E6A3F8 /* SBJson.h */,
+				B4323631145DEFA600E6A3F8 /* SBJsonParser.h */,
+				B4323632145DEFA600E6A3F8 /* SBJsonParser.m */,
+				B4323633145DEFA600E6A3F8 /* SBJsonStreamParser.h */,
+				B4323634145DEFA600E6A3F8 /* SBJsonStreamParser.m */,
+				B4323635145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.h */,
+				B4323636145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.m */,
+				B4323637145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.h */,
+				B4323638145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.m */,
+				B4323639145DEFA600E6A3F8 /* SBJsonStreamParserState.h */,
+				B432363A145DEFA600E6A3F8 /* SBJsonStreamParserState.m */,
+				B432363B145DEFA600E6A3F8 /* SBJsonStreamWriter.h */,
+				B432363C145DEFA600E6A3F8 /* SBJsonStreamWriter.m */,
+				B432363D145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.h */,
+				B432363E145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.m */,
+				B432363F145DEFA600E6A3F8 /* SBJsonStreamWriterState.h */,
+				B4323640145DEFA600E6A3F8 /* SBJsonStreamWriterState.m */,
+				B4323641145DEFA600E6A3F8 /* SBJsonTokeniser.h */,
+				B4323642145DEFA600E6A3F8 /* SBJsonTokeniser.m */,
+				B4323643145DEFA600E6A3F8 /* SBJsonUTF8Stream.h */,
+				B4323644145DEFA600E6A3F8 /* SBJsonUTF8Stream.m */,
+				B4323645145DEFA600E6A3F8 /* SBJsonWriter.h */,
+				B4323646145DEFA600E6A3F8 /* SBJsonWriter.m */,
+			);
+			name = json;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4323607145DEF6F00E6A3F8 /* FlickrPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4323629145DEF6F00E6A3F8 /* Build configuration list for PBXNativeTarget "FlickrPicker" */;
+			buildPhases = (
+				B4323604145DEF6F00E6A3F8 /* Sources */,
+				B4323605145DEF6F00E6A3F8 /* Frameworks */,
+				B4323606145DEF6F00E6A3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickrPicker;
+			productName = FlickrPicker;
+			productReference = B4323608145DEF6F00E6A3F8 /* FlickrPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43235FF145DEF6F00E6A3F8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B4323602145DEF6F00E6A3F8 /* Build configuration list for PBXProject "FlickrPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B43235FD145DEF6F00E6A3F8;
+			productRefGroup = B4323609145DEF6F00E6A3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4323607145DEF6F00E6A3F8 /* FlickrPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4323606145DEF6F00E6A3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4323617145DEF6F00E6A3F8 /* InfoPlist.strings in Resources */,
+				B4323620145DEF6F00E6A3F8 /* MainWindow.xib in Resources */,
+				B4323626145DEF6F00E6A3F8 /* RootViewController.xib in Resources */,
+				B4323657145DFE1200E6A3F8 /* searchTerms.plist in Resources */,
+				B432365C145E069100E6A3F8 /* FlickrSearchResultsViewController.xib in Resources */,
+				B4323664145E411F00E6A3F8 /* ImageDisplayViewController.xib in Resources */,
+				B4323675145E6F9A00E6A3F8 /* flckr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4323604145DEF6F00E6A3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B432361A145DEF6F00E6A3F8 /* main.m in Sources */,
+				B432361D145DEF6F00E6A3F8 /* FlickrPickerAppDelegate.m in Sources */,
+				B4323623145DEF6F00E6A3F8 /* RootViewController.m in Sources */,
+				B4323647145DEFA600E6A3F8 /* NSObject+SBJson.m in Sources */,
+				B4323648145DEFA600E6A3F8 /* SBJsonParser.m in Sources */,
+				B4323649145DEFA600E6A3F8 /* SBJsonStreamParser.m in Sources */,
+				B432364A145DEFA600E6A3F8 /* SBJsonStreamParserAccumulator.m in Sources */,
+				B432364B145DEFA600E6A3F8 /* SBJsonStreamParserAdapter.m in Sources */,
+				B432364C145DEFA600E6A3F8 /* SBJsonStreamParserState.m in Sources */,
+				B432364D145DEFA600E6A3F8 /* SBJsonStreamWriter.m in Sources */,
+				B432364E145DEFA600E6A3F8 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				B432364F145DEFA600E6A3F8 /* SBJsonStreamWriterState.m in Sources */,
+				B4323650145DEFA600E6A3F8 /* SBJsonTokeniser.m in Sources */,
+				B4323651145DEFA600E6A3F8 /* SBJsonUTF8Stream.m in Sources */,
+				B4323652145DEFA600E6A3F8 /* SBJsonWriter.m in Sources */,
+				B4323655145DF19B00E6A3F8 /* JsonParser.m in Sources */,
+				B432365B145E069100E6A3F8 /* FlickrSearchResultsViewController.m in Sources */,
+				B432365F145E156100E6A3F8 /* SearchTerms.m in Sources */,
+				B4323663145E411F00E6A3F8 /* ImageDisplayViewController.m in Sources */,
+				B4323667145E50F800E6A3F8 /* ImageDisplayInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4323615145DEF6F00E6A3F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4323616145DEF6F00E6A3F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B432361E145DEF6F00E6A3F8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B432361F145DEF6F00E6A3F8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B4323624145DEF6F00E6A3F8 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4323625145DEF6F00E6A3F8 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4323627145DEF6F00E6A3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4323628145DEF6F00E6A3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B432362A145DEF6F00E6A3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrPicker/FlickrPicker-Prefix.pch";
+				INFOPLIST_FILE = "FlickrPicker/FlickrPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B432362B145DEF6F00E6A3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrPicker/FlickrPicker-Prefix.pch";
+				INFOPLIST_FILE = "FlickrPicker/FlickrPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4323602145DEF6F00E6A3F8 /* Build configuration list for PBXProject "FlickrPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4323627145DEF6F00E6A3F8 /* Debug */,
+				B4323628145DEF6F00E6A3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4323629145DEF6F00E6A3F8 /* Build configuration list for PBXNativeTarget "FlickrPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B432362A145DEF6F00E6A3F8 /* Debug */,
+				B432362B145DEF6F00E6A3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43235FF145DEF6F00E6A3F8 /* Project object */;
+}
